@@ -7,9 +7,9 @@
 //
 // Code generated for Simulink model 'adder'.
 //
-// Model version                  : 1.8
+// Model version                  : 1.9
 // Simulink Coder version         : 9.8 (R2022b) 13-May-2022
-// C/C++ source code generated on : Fri Nov 22 15:22:30 2024
+// C/C++ source code generated on : Fri Nov 22 15:30:01 2024
 //
 // Target selection: ert.tlc
 // Embedded hardware selection: Generic->Unspecified (assume 32-bit Generic)

@@ -7,9 +7,9 @@
 //
 // Code generated for Simulink model 'adder'.
 //
-// Model version                  : 1.8
+// Model version                  : 1.9
 // Simulink Coder version         : 9.8 (R2022b) 13-May-2022
-// C/C++ source code generated on : Fri Nov 22 15:22:30 2024
+// C/C++ source code generated on : Fri Nov 22 15:30:01 2024
 //
 // Target selection: ert.tlc
 // Embedded hardware selection: Generic->Unspecified (assume 32-bit Generic)
@@ -85,7 +85,6 @@ void adder_step(void)
 void adder_initialize(void)
 {
   {
-    char_T b_zeroDelimTopic_0[5];
     char_T b_zeroDelimTopic[4];
 
     // SystemInitialize for Atomic SubSystem: '<Root>/Subscribe'
@@ -134,12 +133,11 @@ void adder_initialize(void)
     // Start for MATLABSystem: '<S2>/SinkBlock'
     adder_DW.obj.matlabCodegenIsDeleted = false;
     adder_DW.obj.isInitialized = 1;
-    b_zeroDelimTopic_0[0] = 'd';
-    b_zeroDelimTopic_0[1] = 'i';
-    b_zeroDelimTopic_0[2] = 'f';
-    b_zeroDelimTopic_0[3] = 'f';
-    b_zeroDelimTopic_0[4] = '\x00';
-    Pub_adder_4.createPublisher(&b_zeroDelimTopic_0[0], 1);
+    b_zeroDelimTopic[0] = 's';
+    b_zeroDelimTopic[1] = 'u';
+    b_zeroDelimTopic[2] = 'm';
+    b_zeroDelimTopic[3] = '\x00';
+    Pub_adder_4.createPublisher(&b_zeroDelimTopic[0], 1);
     adder_DW.obj.isSetupComplete = true;
 
     // End of SystemInitialize for SubSystem: '<Root>/Publish'

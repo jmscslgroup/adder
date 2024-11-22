@@ -3,9 +3,9 @@
 //
 // Code generated for Simulink model 'adder'.
 //
-// Model version                  : 1.8
+// Model version                  : 1.9
 // Simulink Coder version         : 9.8 (R2022b) 13-May-2022
-// C/C++ source code generated on : Fri Nov 22 15:22:45 2024
+// C/C++ source code generated on : Fri Nov 22 15:30:07 2024
 //
 
 #include <stdio.h>
